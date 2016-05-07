@@ -1,0 +1,349 @@
+alex@alex-Surface-Pro-3:~$ ls
+alex-keyes.github.io  client-server  Documents  DPDA python  FRCV_ROS_KinectNav  oldsite  OwnCloud        proj3   python        sensorkinect       theory  WineChart   writing
+algo                  cpp2python     dotFiles   fibo         InterviewBit        openni   Pictures        Proj4   python-dpda   Sport-Programming  Todo    workspace   xflux
+CISC4700              Desktop        Downloads  flux.sh      Music               org      Portfolio-Site  Public  saveREad.txt  Templates          Videos  workspace1
+alex@alex-Surface-Pro-3:~$ cd DPDA\ python/
+alex@alex-Surface-Pro-3:~/DPDA python$ python3 example1.py
+Alex Keyes + Michael Dzieciolowski
+CISC 4090 Final Project
+Step#    State Rule  Stack        Input Left
+0    q_0    0    ----         TAPE:  aabb$
+1    q-1    1    STACK:  $    TAPE:  aabb$
+2    q-1    2    STACK:  $    TAPE:  abb$
+3    q-1    2    STACK:  a    TAPE:  abb$
+4    q-2    3    STACK:  a    TAPE:  bb$
+5    q-2    4    STACK:  a    TAPE:  bb$
+6    q-2    4    STACK:  a    TAPE:  b$
+7    q-2    4    STACK:  a    TAPE:  b$
+8    q-3    5    STACK:  a    TAPE:  $
+9    q-3    5    STACK:  $    TAPE:  $
+10   q-3    5    STACK:  $    TAPE:  
+11   q-3    5    STACK:  []    TAPE:  
+Tape accepted!
+FINAL TAPE:  
+FINAL STACK:  []
+Step#    State Rule  Stack        Input Left
+0    q_0    0    ----         TAPE:  aaabbb$
+1    q-1    1    STACK:  $    TAPE:  aaabbb$
+2    q-1    2    STACK:  $    TAPE:  aabbb$
+3    q-1    2    STACK:  a    TAPE:  aabbb$
+4    q-1    2    STACK:  a    TAPE:  abbb$
+5    q-1    2    STACK:  a    TAPE:  abbb$
+6    q-2    3    STACK:  a    TAPE:  bbb$
+7    q-2    4    STACK:  a    TAPE:  bbb$
+8    q-2    4    STACK:  a    TAPE:  bb$
+9    q-2    4    STACK:  a    TAPE:  bb$
+10   q-2    4    STACK:  a    TAPE:  b$
+11   q-2    4    STACK:  a    TAPE:  b$
+12   q-3    5    STACK:  a    TAPE:  $
+13   q-3    5    STACK:  $    TAPE:  $
+14   q-3    5    STACK:  $    TAPE:  
+15   q-3    5    STACK:  []    TAPE:  
+Tape accepted!
+FINAL TAPE:  
+FINAL STACK:  []
+Step#    State Rule  Stack        Input Left
+0    q_0    0    ----         TAPE:  aaaabbbb$
+1    q-1    1    STACK:  $    TAPE:  aaaabbbb$
+2    q-1    2    STACK:  $    TAPE:  aaabbbb$
+3    q-1    2    STACK:  a    TAPE:  aaabbbb$
+4    q-1    2    STACK:  a    TAPE:  aabbbb$
+5    q-1    2    STACK:  a    TAPE:  aabbbb$
+6    q-1    2    STACK:  a    TAPE:  abbbb$
+7    q-1    2    STACK:  a    TAPE:  abbbb$
+8    q-2    3    STACK:  a    TAPE:  bbbb$
+9    q-2    4    STACK:  a    TAPE:  bbbb$
+10   q-2    4    STACK:  a    TAPE:  bbb$
+11   q-2    4    STACK:  a    TAPE:  bbb$
+12   q-2    4    STACK:  a    TAPE:  bb$
+13   q-2    4    STACK:  a    TAPE:  bb$
+14   q-2    4    STACK:  a    TAPE:  b$
+15   q-2    4    STACK:  a    TAPE:  b$
+16   q-3    5    STACK:  a    TAPE:  $
+17   q-3    5    STACK:  $    TAPE:  $
+18   q-3    5    STACK:  $    TAPE:  
+19   q-3    5    STACK:  []    TAPE:  
+Tape accepted!
+FINAL TAPE:  
+FINAL STACK:  []
+Step#    State Rule  Stack        Input Left
+0    q_0    0    ----         TAPE:  aaaaabbbbb$
+1    q-1    1    STACK:  $    TAPE:  aaaaabbbbb$
+2    q-1    2    STACK:  $    TAPE:  aaaabbbbb$
+3    q-1    2    STACK:  a    TAPE:  aaaabbbbb$
+4    q-1    2    STACK:  a    TAPE:  aaabbbbb$
+5    q-1    2    STACK:  a    TAPE:  aaabbbbb$
+6    q-1    2    STACK:  a    TAPE:  aabbbbb$
+7    q-1    2    STACK:  a    TAPE:  aabbbbb$
+8    q-1    2    STACK:  a    TAPE:  abbbbb$
+9    q-1    2    STACK:  a    TAPE:  abbbbb$
+10   q-2    3    STACK:  a    TAPE:  bbbbb$
+11   q-2    4    STACK:  a    TAPE:  bbbbb$
+12   q-2    4    STACK:  a    TAPE:  bbbb$
+13   q-2    4    STACK:  a    TAPE:  bbbb$
+14   q-2    4    STACK:  a    TAPE:  bbb$
+15   q-2    4    STACK:  a    TAPE:  bbb$
+16   q-2    4    STACK:  a    TAPE:  bb$
+17   q-2    4    STACK:  a    TAPE:  bb$
+18   q-2    4    STACK:  a    TAPE:  b$
+19   q-2    4    STACK:  a    TAPE:  b$
+20   q-3    5    STACK:  a    TAPE:  $
+21   q-3    5    STACK:  $    TAPE:  $
+22   q-3    5    STACK:  $    TAPE:  
+23   q-3    5    STACK:  []    TAPE:  
+Tape accepted!
+FINAL TAPE:  
+FINAL STACK:  []
+Step#    State Rule  Stack        Input Left
+0    q_0    0    ----         TAPE:  aaaaaabbbbbb$
+1    q-1    1    STACK:  $    TAPE:  aaaaaabbbbbb$
+2    q-1    2    STACK:  $    TAPE:  aaaaabbbbbb$
+3    q-1    2    STACK:  a    TAPE:  aaaaabbbbbb$
+4    q-1    2    STACK:  a    TAPE:  aaaabbbbbb$
+5    q-1    2    STACK:  a    TAPE:  aaaabbbbbb$
+6    q-1    2    STACK:  a    TAPE:  aaabbbbbb$
+7    q-1    2    STACK:  a    TAPE:  aaabbbbbb$
+8    q-1    2    STACK:  a    TAPE:  aabbbbbb$
+9    q-1    2    STACK:  a    TAPE:  aabbbbbb$
+10   q-1    2    STACK:  a    TAPE:  abbbbbb$
+11   q-1    2    STACK:  a    TAPE:  abbbbbb$
+12   q-2    3    STACK:  a    TAPE:  bbbbbb$
+13   q-2    4    STACK:  a    TAPE:  bbbbbb$
+14   q-2    4    STACK:  a    TAPE:  bbbbb$
+15   q-2    4    STACK:  a    TAPE:  bbbbb$
+16   q-2    4    STACK:  a    TAPE:  bbbb$
+17   q-2    4    STACK:  a    TAPE:  bbbb$
+18   q-2    4    STACK:  a    TAPE:  bbb$
+19   q-2    4    STACK:  a    TAPE:  bbb$
+20   q-2    4    STACK:  a    TAPE:  bb$
+21   q-2    4    STACK:  a    TAPE:  bb$
+22   q-2    4    STACK:  a    TAPE:  b$
+23   q-2    4    STACK:  a    TAPE:  b$
+24   q-3    5    STACK:  a    TAPE:  $
+25   q-3    5    STACK:  $    TAPE:  $
+26   q-3    5    STACK:  $    TAPE:  
+27   q-3    5    STACK:  []    TAPE:  
+Tape accepted!
+FINAL TAPE:  
+FINAL STACK:  []
+Step#    State Rule  Stack        Input Left
+0    q_0    0    ----         TAPE:  aaaaaaabbbbbbb$
+1    q-1    1    STACK:  $    TAPE:  aaaaaaabbbbbbb$
+2    q-1    2    STACK:  $    TAPE:  aaaaaabbbbbbb$
+3    q-1    2    STACK:  a    TAPE:  aaaaaabbbbbbb$
+4    q-1    2    STACK:  a    TAPE:  aaaaabbbbbbb$
+5    q-1    2    STACK:  a    TAPE:  aaaaabbbbbbb$
+6    q-1    2    STACK:  a    TAPE:  aaaabbbbbbb$
+7    q-1    2    STACK:  a    TAPE:  aaaabbbbbbb$
+8    q-1    2    STACK:  a    TAPE:  aaabbbbbbb$
+9    q-1    2    STACK:  a    TAPE:  aaabbbbbbb$
+10   q-1    2    STACK:  a    TAPE:  aabbbbbbb$
+11   q-1    2    STACK:  a    TAPE:  aabbbbbbb$
+12   q-1    2    STACK:  a    TAPE:  abbbbbbb$
+13   q-1    2    STACK:  a    TAPE:  abbbbbbb$
+14   q-2    3    STACK:  a    TAPE:  bbbbbbb$
+15   q-2    4    STACK:  a    TAPE:  bbbbbbb$
+16   q-2    4    STACK:  a    TAPE:  bbbbbb$
+17   q-2    4    STACK:  a    TAPE:  bbbbbb$
+18   q-2    4    STACK:  a    TAPE:  bbbbb$
+19   q-2    4    STACK:  a    TAPE:  bbbbb$
+20   q-2    4    STACK:  a    TAPE:  bbbb$
+21   q-2    4    STACK:  a    TAPE:  bbbb$
+22   q-2    4    STACK:  a    TAPE:  bbb$
+23   q-2    4    STACK:  a    TAPE:  bbb$
+24   q-2    4    STACK:  a    TAPE:  bb$
+25   q-2    4    STACK:  a    TAPE:  bb$
+26   q-2    4    STACK:  a    TAPE:  b$
+27   q-2    4    STACK:  a    TAPE:  b$
+28   q-3    5    STACK:  a    TAPE:  $
+29   q-3    5    STACK:  $    TAPE:  $
+30   q-3    5    STACK:  $    TAPE:  
+31   q-3    5    STACK:  []    TAPE:  
+Tape accepted!
+FINAL TAPE:  
+FINAL STACK:  []
+Step#    State Rule  Stack        Input Left
+0    q_0    0    ----         TAPE:  aaaaaaaabbbbbbbb$
+1    q-1    1    STACK:  $    TAPE:  aaaaaaaabbbbbbbb$
+2    q-1    2    STACK:  $    TAPE:  aaaaaaabbbbbbbb$
+3    q-1    2    STACK:  a    TAPE:  aaaaaaabbbbbbbb$
+4    q-1    2    STACK:  a    TAPE:  aaaaaabbbbbbbb$
+5    q-1    2    STACK:  a    TAPE:  aaaaaabbbbbbbb$
+6    q-1    2    STACK:  a    TAPE:  aaaaabbbbbbbb$
+7    q-1    2    STACK:  a    TAPE:  aaaaabbbbbbbb$
+8    q-1    2    STACK:  a    TAPE:  aaaabbbbbbbb$
+9    q-1    2    STACK:  a    TAPE:  aaaabbbbbbbb$
+10   q-1    2    STACK:  a    TAPE:  aaabbbbbbbb$
+11   q-1    2    STACK:  a    TAPE:  aaabbbbbbbb$
+12   q-1    2    STACK:  a    TAPE:  aabbbbbbbb$
+13   q-1    2    STACK:  a    TAPE:  aabbbbbbbb$
+14   q-1    2    STACK:  a    TAPE:  abbbbbbbb$
+15   q-1    2    STACK:  a    TAPE:  abbbbbbbb$
+16   q-2    3    STACK:  a    TAPE:  bbbbbbbb$
+17   q-2    4    STACK:  a    TAPE:  bbbbbbbb$
+18   q-2    4    STACK:  a    TAPE:  bbbbbbb$
+19   q-2    4    STACK:  a    TAPE:  bbbbbbb$
+20   q-2    4    STACK:  a    TAPE:  bbbbbb$
+21   q-2    4    STACK:  a    TAPE:  bbbbbb$
+22   q-2    4    STACK:  a    TAPE:  bbbbb$
+23   q-2    4    STACK:  a    TAPE:  bbbbb$
+24   q-2    4    STACK:  a    TAPE:  bbbb$
+25   q-2    4    STACK:  a    TAPE:  bbbb$
+26   q-2    4    STACK:  a    TAPE:  bbb$
+27   q-2    4    STACK:  a    TAPE:  bbb$
+28   q-2    4    STACK:  a    TAPE:  bb$
+29   q-2    4    STACK:  a    TAPE:  bb$
+30   q-2    4    STACK:  a    TAPE:  b$
+31   q-2    4    STACK:  a    TAPE:  b$
+32   q-3    5    STACK:  a    TAPE:  $
+33   q-3    5    STACK:  $    TAPE:  $
+34   q-3    5    STACK:  $    TAPE:  
+35   q-3    5    STACK:  []    TAPE:  
+Tape accepted!
+FINAL TAPE:  
+FINAL STACK:  []
+Step#    State Rule  Stack        Input Left
+0    q_0    0    ----         TAPE:  aaaaaaaaabbbbbbbbb$
+1    q-1    1    STACK:  $    TAPE:  aaaaaaaaabbbbbbbbb$
+2    q-1    2    STACK:  $    TAPE:  aaaaaaaabbbbbbbbb$
+3    q-1    2    STACK:  a    TAPE:  aaaaaaaabbbbbbbbb$
+4    q-1    2    STACK:  a    TAPE:  aaaaaaabbbbbbbbb$
+5    q-1    2    STACK:  a    TAPE:  aaaaaaabbbbbbbbb$
+6    q-1    2    STACK:  a    TAPE:  aaaaaabbbbbbbbb$
+7    q-1    2    STACK:  a    TAPE:  aaaaaabbbbbbbbb$
+8    q-1    2    STACK:  a    TAPE:  aaaaabbbbbbbbb$
+9    q-1    2    STACK:  a    TAPE:  aaaaabbbbbbbbb$
+10   q-1    2    STACK:  a    TAPE:  aaaabbbbbbbbb$
+11   q-1    2    STACK:  a    TAPE:  aaaabbbbbbbbb$
+12   q-1    2    STACK:  a    TAPE:  aaabbbbbbbbb$
+13   q-1    2    STACK:  a    TAPE:  aaabbbbbbbbb$
+14   q-1    2    STACK:  a    TAPE:  aabbbbbbbbb$
+15   q-1    2    STACK:  a    TAPE:  aabbbbbbbbb$
+16   q-1    2    STACK:  a    TAPE:  abbbbbbbbb$
+17   q-1    2    STACK:  a    TAPE:  abbbbbbbbb$
+18   q-2    3    STACK:  a    TAPE:  bbbbbbbbb$
+19   q-2    4    STACK:  a    TAPE:  bbbbbbbbb$
+20   q-2    4    STACK:  a    TAPE:  bbbbbbbb$
+21   q-2    4    STACK:  a    TAPE:  bbbbbbbb$
+22   q-2    4    STACK:  a    TAPE:  bbbbbbb$
+23   q-2    4    STACK:  a    TAPE:  bbbbbbb$
+24   q-2    4    STACK:  a    TAPE:  bbbbbb$
+25   q-2    4    STACK:  a    TAPE:  bbbbbb$
+26   q-2    4    STACK:  a    TAPE:  bbbbb$
+27   q-2    4    STACK:  a    TAPE:  bbbbb$
+28   q-2    4    STACK:  a    TAPE:  bbbb$
+29   q-2    4    STACK:  a    TAPE:  bbbb$
+30   q-2    4    STACK:  a    TAPE:  bbb$
+31   q-2    4    STACK:  a    TAPE:  bbb$
+32   q-2    4    STACK:  a    TAPE:  bb$
+33   q-2    4    STACK:  a    TAPE:  bb$
+34   q-2    4    STACK:  a    TAPE:  b$
+35   q-2    4    STACK:  a    TAPE:  b$
+36   q-3    5    STACK:  a    TAPE:  $
+37   q-3    5    STACK:  $    TAPE:  $
+38   q-3    5    STACK:  $    TAPE:  
+39   q-3    5    STACK:  []    TAPE:  
+Tape accepted!
+FINAL TAPE:  
+FINAL STACK:  []
+Step#    State Rule  Stack        Input Left
+0    q_0    0    ----         TAPE:  aaaaaaaaaabbbbbbbbbb$
+1    q-1    1    STACK:  $    TAPE:  aaaaaaaaaabbbbbbbbbb$
+2    q-1    2    STACK:  $    TAPE:  aaaaaaaaabbbbbbbbbb$
+3    q-1    2    STACK:  a    TAPE:  aaaaaaaaabbbbbbbbbb$
+4    q-1    2    STACK:  a    TAPE:  aaaaaaaabbbbbbbbbb$
+5    q-1    2    STACK:  a    TAPE:  aaaaaaaabbbbbbbbbb$
+6    q-1    2    STACK:  a    TAPE:  aaaaaaabbbbbbbbbb$
+7    q-1    2    STACK:  a    TAPE:  aaaaaaabbbbbbbbbb$
+8    q-1    2    STACK:  a    TAPE:  aaaaaabbbbbbbbbb$
+9    q-1    2    STACK:  a    TAPE:  aaaaaabbbbbbbbbb$
+10   q-1    2    STACK:  a    TAPE:  aaaaabbbbbbbbbb$
+11   q-1    2    STACK:  a    TAPE:  aaaaabbbbbbbbbb$
+12   q-1    2    STACK:  a    TAPE:  aaaabbbbbbbbbb$
+13   q-1    2    STACK:  a    TAPE:  aaaabbbbbbbbbb$
+14   q-1    2    STACK:  a    TAPE:  aaabbbbbbbbbb$
+15   q-1    2    STACK:  a    TAPE:  aaabbbbbbbbbb$
+16   q-1    2    STACK:  a    TAPE:  aabbbbbbbbbb$
+17   q-1    2    STACK:  a    TAPE:  aabbbbbbbbbb$
+18   q-1    2    STACK:  a    TAPE:  abbbbbbbbbb$
+19   q-1    2    STACK:  a    TAPE:  abbbbbbbbbb$
+20   q-2    3    STACK:  a    TAPE:  bbbbbbbbbb$
+21   q-2    4    STACK:  a    TAPE:  bbbbbbbbbb$
+22   q-2    4    STACK:  a    TAPE:  bbbbbbbbb$
+23   q-2    4    STACK:  a    TAPE:  bbbbbbbbb$
+24   q-2    4    STACK:  a    TAPE:  bbbbbbbb$
+25   q-2    4    STACK:  a    TAPE:  bbbbbbbb$
+26   q-2    4    STACK:  a    TAPE:  bbbbbbb$
+27   q-2    4    STACK:  a    TAPE:  bbbbbbb$
+28   q-2    4    STACK:  a    TAPE:  bbbbbb$
+29   q-2    4    STACK:  a    TAPE:  bbbbbb$
+30   q-2    4    STACK:  a    TAPE:  bbbbb$
+31   q-2    4    STACK:  a    TAPE:  bbbbb$
+32   q-2    4    STACK:  a    TAPE:  bbbb$
+33   q-2    4    STACK:  a    TAPE:  bbbb$
+34   q-2    4    STACK:  a    TAPE:  bbb$
+35   q-2    4    STACK:  a    TAPE:  bbb$
+36   q-2    4    STACK:  a    TAPE:  bb$
+37   q-2    4    STACK:  a    TAPE:  bb$
+38   q-2    4    STACK:  a    TAPE:  b$
+39   q-2    4    STACK:  a    TAPE:  b$
+40   q-3    5    STACK:  a    TAPE:  $
+41   q-3    5    STACK:  $    TAPE:  $
+42   q-3    5    STACK:  $    TAPE:  
+43   q-3    5    STACK:  []    TAPE:  
+Tape accepted!
+FINAL TAPE:  
+FINAL STACK:  []
+Step#    State Rule  Stack        Input Left
+0    q_0    0    ----         TAPE:  aaaaaaaaaaabbbbbbbbbbb$
+1    q-1    1    STACK:  $    TAPE:  aaaaaaaaaaabbbbbbbbbbb$
+2    q-1    2    STACK:  $    TAPE:  aaaaaaaaaabbbbbbbbbbb$
+3    q-1    2    STACK:  a    TAPE:  aaaaaaaaaabbbbbbbbbbb$
+4    q-1    2    STACK:  a    TAPE:  aaaaaaaaabbbbbbbbbbb$
+5    q-1    2    STACK:  a    TAPE:  aaaaaaaaabbbbbbbbbbb$
+6    q-1    2    STACK:  a    TAPE:  aaaaaaaabbbbbbbbbbb$
+7    q-1    2    STACK:  a    TAPE:  aaaaaaaabbbbbbbbbbb$
+8    q-1    2    STACK:  a    TAPE:  aaaaaaabbbbbbbbbbb$
+9    q-1    2    STACK:  a    TAPE:  aaaaaaabbbbbbbbbbb$
+10   q-1    2    STACK:  a    TAPE:  aaaaaabbbbbbbbbbb$
+11   q-1    2    STACK:  a    TAPE:  aaaaaabbbbbbbbbbb$
+12   q-1    2    STACK:  a    TAPE:  aaaaabbbbbbbbbbb$
+13   q-1    2    STACK:  a    TAPE:  aaaaabbbbbbbbbbb$
+14   q-1    2    STACK:  a    TAPE:  aaaabbbbbbbbbbb$
+15   q-1    2    STACK:  a    TAPE:  aaaabbbbbbbbbbb$
+16   q-1    2    STACK:  a    TAPE:  aaabbbbbbbbbbb$
+17   q-1    2    STACK:  a    TAPE:  aaabbbbbbbbbbb$
+18   q-1    2    STACK:  a    TAPE:  aabbbbbbbbbbb$
+19   q-1    2    STACK:  a    TAPE:  aabbbbbbbbbbb$
+20   q-1    2    STACK:  a    TAPE:  abbbbbbbbbbb$
+21   q-1    2    STACK:  a    TAPE:  abbbbbbbbbbb$
+22   q-2    3    STACK:  a    TAPE:  bbbbbbbbbbb$
+23   q-2    4    STACK:  a    TAPE:  bbbbbbbbbbb$
+24   q-2    4    STACK:  a    TAPE:  bbbbbbbbbb$
+25   q-2    4    STACK:  a    TAPE:  bbbbbbbbbb$
+26   q-2    4    STACK:  a    TAPE:  bbbbbbbbb$
+27   q-2    4    STACK:  a    TAPE:  bbbbbbbbb$
+28   q-2    4    STACK:  a    TAPE:  bbbbbbbb$
+29   q-2    4    STACK:  a    TAPE:  bbbbbbbb$
+30   q-2    4    STACK:  a    TAPE:  bbbbbbb$
+31   q-2    4    STACK:  a    TAPE:  bbbbbbb$
+32   q-2    4    STACK:  a    TAPE:  bbbbbb$
+33   q-2    4    STACK:  a    TAPE:  bbbbbb$
+34   q-2    4    STACK:  a    TAPE:  bbbbb$
+35   q-2    4    STACK:  a    TAPE:  bbbbb$
+36   q-2    4    STACK:  a    TAPE:  bbbb$
+37   q-2    4    STACK:  a    TAPE:  bbbb$
+38   q-2    4    STACK:  a    TAPE:  bbb$
+39   q-2    4    STACK:  a    TAPE:  bbb$
+40   q-2    4    STACK:  a    TAPE:  bb$
+41   q-2    4    STACK:  a    TAPE:  bb$
+42   q-2    4    STACK:  a    TAPE:  b$
+43   q-2    4    STACK:  a    TAPE:  b$
+44   q-3    5    STACK:  a    TAPE:  $
+45   q-3    5    STACK:  $    TAPE:  $
+46   q-3    5    STACK:  $    TAPE:  
+47   q-3    5    STACK:  []    TAPE:  
+Tape accepted!
+FINAL TAPE:  
+FINAL STACK:  []
+alex@alex-Surface-Pro-3:~/DPDA python$ 
